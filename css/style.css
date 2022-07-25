@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../imagens/background.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 64px;
+    width: 640px;
+    left: -25px;
+    top: 172px;
+    line-height: 64.06px;
+    position: absolute;
+}
+
+h3{
+    display: flex;
+    text-align: center;
+    font-family: Taviraj;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36.04px;
+}
+
+li, a {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    max-width: 1208px;
+    height: 70px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+footer {
+    position: absolute;
+    top: 2750px;
+    left: -120px;
+    width: 1450px;
+    height: 339px;
+    background-color: rgba(246, 247, 251, 1);
+    text-decoration: none;
+    display: flex;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer #sobre-title {
+    margin: 80px 0 0 126px;
+    font-family: Taviraj;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24.02px;
+}
+
+footer #sobre {
+    margin: 15px 0 0 126px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.08px;
+    width: 376px;
+}
+footer .direito {
+    display: flex;
+    margin: 80px 0 0 218px;
+}
+footer .opcao {
+    margin-right: 108px;
+}
+
+footer #ultimo {
+    margin-right: 0px;
+}
+
+footer .opcao h4{
+    font-family: Taviraj;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14.01px;
+    text-indent: 30px;
+    margin-bottom: 20px;
+    
+}
+footer .opcao li{
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    margin-bottom: 10px;
+    
+}
+
+pre {
+    position: absolute;
+    top: 292px;
+    left: 551px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    position: relative;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.nav_links {
+    list-style: none;
+    margin: auto 0;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links a {
+    font-weight: 400;
+}
+.nav_links a:active, .nav_links a:hover {
+    font-weight: 500;
+    color: #000000;
+}
+
+.nav-icons {
+    display: flex;
+    margin: auto 0;
+}
+
+
+.nav-icons img {
+    width: 18px;
+    height: 18px;
+    margin: 0 5px
+}
+
+.taviraj {
+    font-family: Taviraj;
+}
+
+.depoimento-card {
+    position: relative;
+    width: 376px;
+    height: 451px;
+    background-color: rgba(246, 247, 251, 1);
+    margin: 0 20px;
+}
+
+.depoimento-card h2 {
+    font-family: Taviraj;
+    font-size: 288px;
+    text-align: center;
+    color: rgba(115, 66, 35, 0.6);
+}
+
+.depoimento-card p {
+    top: 150px;
+    left: 43px;
+    position: absolute;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    width: 291px;
+}
+
+.depoimento-card hr {
+    width: 122.5px;
+    left: 43px;
+    top: 310px;
+    position: absolute;
+}
+
+.depoimento-card h3 {
+    top: 361px;
+    left: 118px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.59px;
+    position: absolute;
+}
+
+.depoimento-card h4 {
+    position: absolute;
+    top: 381px;
+    left: 118px;
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.22px;
+    font-style: italic;
+}
+
+.user-photo {
+    position: absolute;
+    top: 353px;
+    left: 43px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgba(115, 66, 35, 0.6);
+}
+
+#buy-link {
+    position: absolute;
+    top: 356px;
+    left: -110px;
+    font-size: 18px;
+    background-color: #734223;
+    width: 208px;
+    height: 69px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 40px 0 0 82px;
+}
+
+#buy-link a {
+    padding: 28px 57px;
+    color: #FFFFFF;
+}
+#buy-link a:visited {
+    padding: 35px;
+    color: #FFFFFF;
+}
+
+#home-container {
+    position: relative;
+    top: 685px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    left: 0px;
+}
+
+#home-cards {
+    display: flex; 
+    padding: 0;
+    margin: 0;
+}
+
+#home-cards .card {
+    position: relative;
+    width: 392px;
+    height: 169px;
+    border: 0px;
+    border-radius: 0;
+    background-color: #F6F7FB;
+    margin: 0 8px;
+}
+
+#home-cards .card img {
+    position: absolute;
+    top: 48.58px;
+    left: 49.25px;
+    max-width: 18.5px;
+    max-height: 18.5px;
+}
+#home-cards .card h2 {
+    font-family: Taviraj;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 24.02px;
+    position: absolute;
+    top: 48.58px;
+    left: 100.27px;
+} 
+
+#home-cards .card p {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 23.1px;
+    position: absolute;
+    top: 84px;
+    left: 99px;
+    width: 219px;
+} 
+
+#departamentos {
+    top: 300px;
+    position: absolute;
+    display: flex;
+}
+
+#departamentos .card{
+   position: absolute;
+   top: 80px;
+}
+
+#departamentos button{
+    width: 201px;
+    height: 100px;
+    background-color: #F6F7FB;
+    border: 0px;
+}
+
+#departamentos h3 {
+    font-family: Taviraj;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36.04px;
+}
+
+#nossos-produtos {
+    position: relative;
+    top: 330px;
+    left: 210px;
+}
+
+#produtos {
+    position: absolute;
+    display: flex;
+    top: 410px;
+}
+
+#produtos .prod-card{
+    width: 267px;
+    margin: 0 21px;
+}
+
+#produtos .prod-card h4{
+    top: 410px;
+    position: absolute;
+    font-family: Rubik;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 36.74px;
+}
+
+#produtos .prod-card h5{
+    top: 460px;
+    position: absolute;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.44px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#veja-mais {
+    position: absolute;
+    top: 1000px;
+    left: 520px;
+    width: 208px;
+    height: 69px;
+    background-color: #734223;
+}
+
+#veja-mais a {
+    position: absolute;
+    top: 25px;
+    right: 75px;
+    color: #FFFFFF;
+}
+
+#depoimentos {
+    top: 1550px;
+    position: absolute;
+    display: flex;
+}
+
+#depoimento-title {
+    position: absolute;
+    top: 1500px;
+}
+
+#newsletter {
+    width: 1208px;
+    height: 430px;
+    background-color: rgba(246, 247, 251, 1);
+    position: absolute;
+    top: 2200px;
+    left: 0;
+}
+#newsletter h2 {
+    text-align: center;
+    margin-top: 128px;
+    font-size: 36px;
+    font-family: Taviraj;
+    font-weight: 600;
+    line-height: 36.04px;
+}
+
+#newsletter p {
+    width: 344px;
+    margin-left: 432px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Taviraj;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+#newsletter input {
+    width: 416px;
+    height: 53px;
+    margin-left: 312px;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 19.6px;
+    border: 0px;
+    text-indent: 30px;
+}
+
+#newsletter button {
+    width: 168px;
+    height: 53px;
+    background-color: #734223;
+    color: #FFFFFF;
+    text-align: center;
+    border: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .desktop-icons {
+        display: none;
+    }
+    .nav_links {
+        display: none;
+    }
+}
+@media screen and (min-width: 601px) {
+    #mobile-icon {
+        display: none;
+    }
+}
